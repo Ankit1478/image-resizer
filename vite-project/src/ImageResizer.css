@@ -1,0 +1,73 @@
+/* ImageResizer.css */
+.image-resizer-container {
+    text-align: center;
+    padding: 50px;
+    font-family: Arial, sans-serif;
+}
+
+.dropzone {
+    border: 2px dashed #cccccc;
+    padding: 20px;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+}
+
+.dropzone:hover {
+    background-color: #e9e9e9;
+}
+
+.input-group {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.input-group label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resize-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.resize-button:hover {
+    background-color: #0056b3;
+}
+
+.resized-image-container {
+    margin-top: 20px;
+}
+
+.resized-image-container img {
+    max-width: 100%;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.resized-image-container a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.resized-image-container a:hover {
+    background-color: #218838;
+}
